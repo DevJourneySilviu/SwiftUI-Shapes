@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomTabBarView: View {
     
-    @State var currentTab: Tab = .Home
+    @State var currentTab: Tab = .animation
     
     // Hide native Tab Bar
     init() {
@@ -23,23 +23,24 @@ struct CustomTabBarView: View {
         TabView(selection: $currentTab) {
             Text("Home View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.red.ignoresSafeArea())
-                .tag(Tab.Home)
+                .background(Color("38B3D0").ignoresSafeArea())
+                .tag(Tab.animation)
             
-            Text("Search View")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.blue.ignoresSafeArea())
-                .tag(Tab.Search)
+            NavigationView {
+                DesignTabView()
+            }
+            .background(Color("FBC7C3").ignoresSafeArea())
+            .tag(Tab.design)
             
             Text("Notifications View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.green.ignoresSafeArea())
-                .tag(Tab.Notifications)
+                .background(Color("FFF7EC").ignoresSafeArea())
+                .tag(Tab.notifications)
             
             Text("Profile View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color.yellow.ignoresSafeArea())
-                .tag(Tab.Profile)
+                .background(Color("A9E2F5").ignoresSafeArea())
+                .tag(Tab.profile)
         }.overlay(
             HStack(spacing: 0) {
                 ForEach(Tab.allCases, id: \.rawValue) { tab in
@@ -106,20 +107,20 @@ struct CustomTabBarView_Previews: PreviewProvider {
 // Tab Bar enums
 enum Tab: String, CaseIterable {
     
-    case Home = "house"
-    case Search = "magnifyingglass.circle"
-    case Notifications = "bell"
-    case Profile = "person"
+    case animation = "line.3.crossed.swirl.circle"
+    case design = "doc.richtext"
+    case notifications = "bell"
+    case profile = "person"
     
     var tabName: String {
         switch self {
-        case .Home:
-            return "Home"
-        case .Search:
-            return "Search"
-        case .Notifications:
+        case .animation:
+            return "Animation"
+        case .design:
+            return "Design"
+        case .notifications:
             return "Notifications"
-        case .Profile:
+        case .profile:
             return "Profile"
         }
     }

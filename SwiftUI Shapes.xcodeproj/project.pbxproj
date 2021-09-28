@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B146D9282703638F00BC3B5F /* DesignTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D9272703638F00BC3B5F /* DesignTabView.swift */; };
+		B146D92A270363A300BC3B5F /* DesignTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D929270363A300BC3B5F /* DesignTabModel.swift */; };
+		B146D92C270363B200BC3B5F /* DesignTabVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D92B270363B200BC3B5F /* DesignTabVM.swift */; };
+		B146D92E2703656600BC3B5F /* GlassmorphismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D92D2703656600BC3B5F /* GlassmorphismView.swift */; };
 		B19811CE26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19811CD26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift */; };
 		B19811D026FF5ABF00AD83BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19811CF26FF5ABF00AD83BC /* ContentView.swift */; };
 		B19811D226FF5AC000AD83BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19811D126FF5AC000AD83BC /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B146D9272703638F00BC3B5F /* DesignTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabView.swift; sourceTree = "<group>"; };
+		B146D929270363A300BC3B5F /* DesignTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabModel.swift; sourceTree = "<group>"; };
+		B146D92B270363B200BC3B5F /* DesignTabVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabVM.swift; sourceTree = "<group>"; };
+		B146D92D2703656600BC3B5F /* GlassmorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismView.swift; sourceTree = "<group>"; };
 		B19811CA26FF5ABF00AD83BC /* SwiftUI Shapes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Shapes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19811CD26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ShapesApp.swift; sourceTree = "<group>"; };
 		B19811CF26FF5ABF00AD83BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +44,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B146D9252703636000BC3B5F /* DesignTab */ = {
+			isa = PBXGroup;
+			children = (
+				B146D929270363A300BC3B5F /* DesignTabModel.swift */,
+				B146D9272703638F00BC3B5F /* DesignTabView.swift */,
+				B146D92B270363B200BC3B5F /* DesignTabVM.swift */,
+				B146D92F2703709400BC3B5F /* Designs */,
+			);
+			path = DesignTab;
+			sourceTree = "<group>";
+		};
+		B146D92F2703709400BC3B5F /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				B146D92D2703656600BC3B5F /* GlassmorphismView.swift */,
+			);
+			path = Designs;
+			sourceTree = "<group>";
+		};
 		B19811C126FF5ABF00AD83BC = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +85,7 @@
 				B19811CD26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift */,
 				B19811CF26FF5ABF00AD83BC /* ContentView.swift */,
 				B19811DB26FF5BA900AD83BC /* CustomTabBar */,
+				B146D9252703636000BC3B5F /* DesignTab */,
 				B19811D126FF5AC000AD83BC /* Assets.xcassets */,
 				B19811D326FF5AC000AD83BC /* Preview Content */,
 			);
@@ -152,8 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19811DD26FF5C1D00AD83BC /* CustomTabBarView.swift in Sources */,
+				B146D92A270363A300BC3B5F /* DesignTabModel.swift in Sources */,
 				B19811D026FF5ABF00AD83BC /* ContentView.swift in Sources */,
+				B146D9282703638F00BC3B5F /* DesignTabView.swift in Sources */,
+				B146D92C270363B200BC3B5F /* DesignTabVM.swift in Sources */,
 				B19811CE26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift in Sources */,
+				B146D92E2703656600BC3B5F /* GlassmorphismView.swift in Sources */,
 				B19811DF26FF644600AD83BC /* MaterialEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,9 +6,3 @@
 //
 
 import SwiftUI
-
-struct DesignTabList : Identifiable {
-    var id     = UUID()
-    var name   : String
-    var view   : AnyView
-}

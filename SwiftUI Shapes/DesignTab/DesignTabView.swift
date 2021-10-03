@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-var designTabList = [
-    DesignTabList(name: "Glassmorphism", view: AnyView(GlassmorphismView())),
+let designTabList = [
+    AppTabList(name: "Glassmorphism", view: AnyView(GlassmorphismView())),
 ]
 
 struct DesignTabView: View {

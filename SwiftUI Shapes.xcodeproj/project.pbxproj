@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12721CB2709C5CD00EC3395 /* AnimationTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12721CA2709C5CD00EC3395 /* AnimationTabModel.swift */; };
+		B12721CD2709C5DD00EC3395 /* AnimationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12721CC2709C5DD00EC3395 /* AnimationTabView.swift */; };
+		B12721CF2709C5E900EC3395 /* AnimationTabVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12721CE2709C5E900EC3395 /* AnimationTabVM.swift */; };
+		B12721D12709C69A00EC3395 /* AppTabsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12721D02709C69A00EC3395 /* AppTabsModel.swift */; };
+		B12721D32709C72B00EC3395 /* CardHorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12721D22709C72B00EC3395 /* CardHorizontalScrolling.swift */; };
 		B146D9282703638F00BC3B5F /* DesignTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D9272703638F00BC3B5F /* DesignTabView.swift */; };
 		B146D92A270363A300BC3B5F /* DesignTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D929270363A300BC3B5F /* DesignTabModel.swift */; };
 		B146D92C270363B200BC3B5F /* DesignTabVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146D92B270363B200BC3B5F /* DesignTabVM.swift */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12721CA2709C5CD00EC3395 /* AnimationTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabModel.swift; sourceTree = "<group>"; };
+		B12721CC2709C5DD00EC3395 /* AnimationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabView.swift; sourceTree = "<group>"; };
+		B12721CE2709C5E900EC3395 /* AnimationTabVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabVM.swift; sourceTree = "<group>"; };
+		B12721D02709C69A00EC3395 /* AppTabsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabsModel.swift; sourceTree = "<group>"; };
+		B12721D22709C72B00EC3395 /* CardHorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardHorizontalScrolling.swift; sourceTree = "<group>"; };
 		B146D9272703638F00BC3B5F /* DesignTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabView.swift; sourceTree = "<group>"; };
 		B146D929270363A300BC3B5F /* DesignTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabModel.swift; sourceTree = "<group>"; };
 		B146D92B270363B200BC3B5F /* DesignTabVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTabVM.swift; sourceTree = "<group>"; };
@@ -44,6 +54,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B12721C92709C58900EC3395 /* AnimationTab */ = {
+			isa = PBXGroup;
+			children = (
+				B12721CA2709C5CD00EC3395 /* AnimationTabModel.swift */,
+				B12721CC2709C5DD00EC3395 /* AnimationTabView.swift */,
+				B12721CE2709C5E900EC3395 /* AnimationTabVM.swift */,
+				B12721D42709D71100EC3395 /* Animations */,
+			);
+			path = AnimationTab;
+			sourceTree = "<group>";
+		};
+		B12721D42709D71100EC3395 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B12721D22709C72B00EC3395 /* CardHorizontalScrolling.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		B146D9252703636000BC3B5F /* DesignTab */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +113,9 @@
 			children = (
 				B19811CD26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift */,
 				B19811CF26FF5ABF00AD83BC /* ContentView.swift */,
+				B12721D02709C69A00EC3395 /* AppTabsModel.swift */,
 				B19811DB26FF5BA900AD83BC /* CustomTabBar */,
+				B12721C92709C58900EC3395 /* AnimationTab */,
 				B146D9252703636000BC3B5F /* DesignTab */,
 				B19811D126FF5AC000AD83BC /* Assets.xcassets */,
 				B19811D326FF5AC000AD83BC /* Preview Content */,
@@ -184,7 +215,12 @@
 				B19811D026FF5ABF00AD83BC /* ContentView.swift in Sources */,
 				B146D9282703638F00BC3B5F /* DesignTabView.swift in Sources */,
 				B146D92C270363B200BC3B5F /* DesignTabVM.swift in Sources */,
+				B12721CF2709C5E900EC3395 /* AnimationTabVM.swift in Sources */,
 				B19811CE26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift in Sources */,
+				B12721CB2709C5CD00EC3395 /* AnimationTabModel.swift in Sources */,
+				B12721D32709C72B00EC3395 /* CardHorizontalScrolling.swift in Sources */,
+				B12721CD2709C5DD00EC3395 /* AnimationTabView.swift in Sources */,
+				B12721D12709C69A00EC3395 /* AppTabsModel.swift in Sources */,
 				B146D92E2703656600BC3B5F /* GlassmorphismView.swift in Sources */,
 				B19811DF26FF644600AD83BC /* MaterialEffect.swift in Sources */,
 			);

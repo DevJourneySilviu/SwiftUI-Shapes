@@ -21,15 +21,14 @@ struct CustomTabBarView: View {
     
     var body: some View {
         TabView(selection: $currentTab) {
-            Text("Home View")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("38B3D0").ignoresSafeArea())
-                .tag(Tab.animation)
+            NavigationView {
+                AnimationTabView()
+            }
+            .tag(Tab.animation)
             
             NavigationView {
                 DesignTabView()
             }
-            .background(Color("FBC7C3").ignoresSafeArea())
             .tag(Tab.design)
             
             Text("Notifications View")

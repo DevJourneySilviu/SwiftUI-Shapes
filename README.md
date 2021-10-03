@@ -4,19 +4,23 @@
 
 ## Animation Tab
 
-### - to be implemented
+### Card Horizontal Scrolling with Animation in SwiftUI -> _Commit 003_
 
 ## Design Tab
 
-### Glassmorphism
+### Glassmorphism -> _Commit 002_
 
 # Last Commit
+
+## Commit 003 - Card Horizontal Scrolling with Animation in SwiftUI
+
+[+] This can be found in **CardHorizontalScrolling** inside _AnimationTab_
+
+# Old Commits
 
 ## Commit 002 - Glassmorphism in SwiftUI
 
 [+] This can be found in **GlassmorphismView** inside _DesignTab_
-
-# Old Commits
 
 ## Commit 001 - Custom animated TabBar
 

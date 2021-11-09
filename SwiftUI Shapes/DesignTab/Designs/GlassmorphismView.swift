@@ -10,7 +10,7 @@ import SwiftUI
 struct GlassmorphismView: View {
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [Color("A9E2F5"), Color("38B3D0"), Color("FBC7C3") ,Color("FFF7EC")]), startPoint: .topTrailing, endPoint: .bottomLeading)
+            LinearGradient(gradient: Gradient(colors: [Color("LightBlue"), Color("MainBlue"), Color("Secondary") ,Color("SecondaryLight")]), startPoint: .topTrailing, endPoint: .bottomLeading)
                 .edgesIgnoringSafeArea(.bottom)
             
             Circle()

@@ -9,6 +9,7 @@ import SwiftUI
 
 let designTabList = [
     AppTabList(name: "Glassmorphism", view: AnyView(GlassmorphismView())),
+    AppTabList(name: "TextField with floating Placeholder", view: AnyView(TextFieldWithFloatingPlaceholder()))
 ]
 
 struct DesignTabView: View {

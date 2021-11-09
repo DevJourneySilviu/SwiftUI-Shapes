@@ -86,7 +86,7 @@ struct ExpandableButtonView: View {
             }
             .frame(width: size, height: size)
         }
-        .background(Color("38B3D0"))
+        .background(Color("MainBlue"))
         .cornerRadius(cornerRadius)
         .shadow(color: Color.black.opacity(0.17), radius: 3, x:2, y: 2)
     }

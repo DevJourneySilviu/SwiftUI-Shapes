@@ -35,7 +35,7 @@ struct CardViewForHorizontalScrollingAnimation: View {
     
     var title = "Stationary Bike with VR technology"
     var image = "card_Hscroll_illustration_1"
-    var color = Color("FFF7EC")
+    var color = Color("SecondaryLight")
     
     var body: some View {
         VStack(alignment: .leading) {

@@ -23,6 +23,7 @@
 		B19811D526FF5AC000AD83BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19811D426FF5AC000AD83BC /* Preview Assets.xcassets */; };
 		B19811DD26FF5C1D00AD83BC /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19811DC26FF5C1D00AD83BC /* CustomTabBarView.swift */; };
 		B19811DF26FF644600AD83BC /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19811DE26FF644600AD83BC /* MaterialEffect.swift */; };
+		B1DAA4A4273B034D006E11CE /* TextFieldWithFloatingPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DAA4A3273B034D006E11CE /* TextFieldWithFloatingPlaceholder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B19811D426FF5AC000AD83BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B19811DC26FF5C1D00AD83BC /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		B19811DE26FF644600AD83BC /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
+		B1DAA4A3273B034D006E11CE /* TextFieldWithFloatingPlaceholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithFloatingPlaceholder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				B146D92D2703656600BC3B5F /* GlassmorphismView.swift */,
+				B1DAA4A3273B034D006E11CE /* TextFieldWithFloatingPlaceholder.swift */,
 			);
 			path = Designs;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				B19811CE26FF5ABF00AD83BC /* SwiftUI_ShapesApp.swift in Sources */,
 				B12721CB2709C5CD00EC3395 /* AnimationTabModel.swift in Sources */,
 				B1649718273AC92000A86985 /* AnimatedExpandableButton.swift in Sources */,
+				B1DAA4A4273B034D006E11CE /* TextFieldWithFloatingPlaceholder.swift in Sources */,
 				B12721D32709C72B00EC3395 /* CardHorizontalScrolling.swift in Sources */,
 				B12721CD2709C5DD00EC3395 /* AnimationTabView.swift in Sources */,
 				B12721D12709C69A00EC3395 /* AppTabsModel.swift in Sources */,
@@ -284,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -339,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -365,7 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -395,7 +399,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -33,12 +33,12 @@ struct CustomTabBarView: View {
             
             Text("Notifications View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("FFF7EC").ignoresSafeArea())
+                .background(Color("SecondaryLight").ignoresSafeArea())
                 .tag(Tab.notifications)
             
             Text("Profile View")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color("A9E2F5").ignoresSafeArea())
+                .background(Color("LightBlue").ignoresSafeArea())
                 .tag(Tab.profile)
         }.overlay(
             HStack(spacing: 0) {

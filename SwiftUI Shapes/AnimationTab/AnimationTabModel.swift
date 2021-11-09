@@ -19,14 +19,14 @@ struct CardForHorizontalScrollingAnimation: Identifiable {
 let cardDataForHorizontalScrollingAnimation = [
     CardForHorizontalScrollingAnimation(title: "Stationary Bike with VR technology",
          image: "card_Hscroll_illustration_1",
-         color: Color("FFF7EC")),
+         color: Color("SecondaryLight")),
     CardForHorizontalScrollingAnimation(title: "Treadmill with VR technology",
          image: "card_Hscroll_illustration_2",
-         color: Color("A9E2F5")),
+         color: Color("LightBlue")),
     CardForHorizontalScrollingAnimation(title: "Indoor yoga",
          image: "card_Hscroll_illustration_3",
-         color: Color("FBC7C3")),
+         color: Color("Secondary")),
     CardForHorizontalScrollingAnimation(title: "Exercise with weights",
          image: "card_Hscroll_illustration_4",
-         color: Color("38B3D0")),
+         color: Color("MainBlue")),
 ]
